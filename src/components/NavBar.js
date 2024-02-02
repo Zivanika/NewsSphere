@@ -13,7 +13,7 @@ export class NavBar extends Component {
       <div>
         <nav className="navbar fixed-top navbar-expand-lg  navbar-dark bg-dark" style={{paddingLeft:"10px"}}>
   <div className="container-fluid">
-    <Link className="navbar-brand" to="/"><FontAwesomeIcon icon={faGlobe} size="sm" style={{color: "white",}} />  NewsSphere</Link>
+    <Link className="navbar-brand" to="/NewsSphere"><FontAwesomeIcon icon={faGlobe} size="sm" style={{color: "white",}} />  NewsSphere</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

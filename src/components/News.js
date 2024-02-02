@@ -7,8 +7,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import axios from 'axios';
 
-// const baseURL="https://newsphere-api.onrender.com"
-const baseURL="http://localhost:5000";
+const baseURL="https://newssphere-api.onrender.com"
+// const baseURL="http://localhost:5000";
 
 export class News extends Component{
   // const[articles,setArticles]=useState([]);
